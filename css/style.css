@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.6; }
+
+header .navbar-nav .nav-item .nav-link, .btn-custom, .book-section .book, .footer ul li a:hover {
+  transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease; }
+
+header {
+  background-color: #f0fff0; }
+  header .navbar-brand img {
+    width: 200px; }
+  header .navbar-nav .nav-item .nav-link {
+    color: #000000;
+    font-weight: 500;
+    font-size: 19px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    padding: 7px 25px; }
+    header .navbar-nav .nav-item .nav-link:hover {
+          background-color: transparent !important;
+    color: #21B573 !important;
+ }
+  header .navbar-nav .nav-item:last-child .nav-link {
+    background-color: #21B573;
+    color: #fff; }
+  header h4 {
+    color: red;
+    font-size: 20px; }
+  header h1 {
+    font-size: 65px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 1.1; }
+    header h1 span {
+      color: #21B573; }
+  header p {
+    font-size: 18px;
+    opacity: 0.7;
+    line-height: 1.8; }
+
+.btn-custom {
+  color: #fff;
+  background-color: #21B573;
+  font-size: 19px;
+  letter-spacing: 1px;
+  border-radius: 30px;
+  padding: 7px 25px;
+  border: 2px solid #21B573; }
+  .btn-custom:hover {
+    background-color: transparent;
+    color: #21B573; }
+
+.book-section {
+  padding: 40px 0; }
+  .book-section .book {
+    background-color: #f0fff0;
+    text-align: center;
+    padding: 35px 20px;
+    border-radius: 10px; }
+    .book-section .book:hover {
+      background-color: #fff;
+      box-shadow: 0 20px 40px #0000001c; }
+    .book-section .book img {
+      height: 80px; }
+    .book-section .book h2 {
+      font-size: 20px;
+      font-weight: 700;
+      margin: 10px 0 0; }
+    .book-section .book p {
+      font-size: 18px;
+      opacity: 0.7;
+      line-height: 1.8;
+      margin-bottom: 0; }
+
+.course-section {
+  padding: 50px 0; }
+  .course-section .courses {
+    border-radius: 10px;
+    box-shadow: 0 20px 40px #0000001c;
+    border: 0; }
+    .course-section .courses .card-body img {
+      border-radius: 10px; }
+    .course-section .courses .card-body .card-title {
+      font-size: 25px;
+      margin: 10px 0; }
+    .course-section .courses .card-body .card-text {
+      font-size: 18px;
+      opacity: 0.7;
+      line-height: 1.8; }
+    .course-section .courses .card-body .nav {
+      margin: 10px; }
+      .course-section .courses .card-body .nav li img {
+        width: 20px; }
+
+.heading h1 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  text-align: center; }
+
+.testimonial-section {
+  padding: 50px 0; }
+  .testimonial-section .heading h1 {
+    text-align: center !important; }
+  .testimonial-section p {
+    font-size: 18px;
+    opacity: 0.7;
+    line-height: 1.8; }
+
+.footer {
+  background-color: #0c0c0c;
+  color: #fff;
+  padding: 50px 0 0; }
+  .footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    line-height: 1.7; }
+    .footer ul li a:hover {
+      opacity: 0.8;
+      color: #fff; }
+
+.copyright {
+  padding: 30px;
+  background-color: #0c0c0c;
+  text-align: center; }
+  .copyright p {
+    margin-bottom: 0; }
+    .copyright p a {
+      font-weight: 700;
+      text-decoration: none;
+      color: #21B573; }
+
+@media (max-width: 1999px) {
+  header h1 {
+    font-size: 55px; }
+
+  .book-section .book p {
+    font-size: 14px; }
+
+  .book-section .book h2 {
+    font-size: 20px; }
+
+  .courses .btn-custom {
+    font-size: 15px;
+    padding: 7px 20px;
+    margin-top: 0; }
+
+  .testimonial-section p {
+    font-size: 15px; } }
+@media (max-width: 991px) {
+  .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: center; }
+
+  header .navbar-nav .nav-item .nav-link {
+    color: #000000;
+    font-size: 19px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    padding: 7px 25px; }
+
+  header .navbar-nav .nav-item .nav-link, header .btn-custom, .book-section .book, .course-section .courses .card-body .btn-custom, .footer ul li a:hover {
+    transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease; }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.5); }
+
+  .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0; }
+
+  .nav-link {
+    display: block;
+    padding: .5rem 1rem; }
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent; }
+
+  li {
+    text-align: -webkit-match-parent; }
+
+  .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row; }
+
+  .courses .btn-custom {
+    font-size: 15px;
+    padding: 4px 20px;
+    margin-top: 0; }
+
+  header h1 {
+    font-size: 40px; }
+
+  .book-section .book p {
+    font-size: 13px; }
+
+  .book-section .book h2 {
+    font-size: 15px; }
+
+  header p {
+    font-size: 16px; }
+
+  .courses .card-body {
+    padding: 10px 5px; }
+
+  .course-section .courses .card-body .card-title {
+    font-size: 21px;
+    margin: 0 0 0; } }
+@media (max-width: 767px) {
+  header h1 {
+    font-size: 39px; }
+
+  .navbar .navbar-nav .nav-item .btn-custom {
+    font-size: 12px;
+    margin: 6px 0; }
+
+  .btn-custom {
+    font-size: 12px;
+    margin: 6px 0;
+    margin-top: 0; }
+
+  header .col-md img {
+    max-width: 350px;
+    margin-top: 20px; }
+
+  header .row {
+    text-align: center; }
+
+  .book {
+    margin-bottom: 30px; }
+
+  .courses {
+    margin-bottom: 30px; }
+
+  .testimonial-section p {
+    font-size: 11px; } }
+@media (max-width: 575px) {
+  .navbar-nav {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: center; }
+
+  .testimonial-section p {
+    font-size: 10px; }
+
+  .testimonial-section h1 {
+    text-align: center; }
+
+  .footer {
+    text-align: center; }
+    .footer h3 {
+      font-size: 20px; }
+
+  .footer ul li a {
+    font-size: 14px; }
+
+  .btn-custom {
+    margin-top: 0; } }
+
+/*# sourceMappingURL=style.css.map */
